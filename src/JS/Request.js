@@ -37,5 +37,5 @@ class Request {
   }
 }
 
-const R = new Request("https://hydra-machtech-back.herokuapp.com");
+const R = new Request("https://hydra-machtech.herokuapp.com");
 export default R
