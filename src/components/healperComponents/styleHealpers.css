@@ -1,0 +1,34 @@
+.int h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.text_int {
+    display: flex;
+}
+
+.text_int p {
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+}
+
+.text_int_icon{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.sleck_img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 199px;
+    height: 33.33px;
+}
+
+.text_int_icon hr {
+    border: 2px solid #C0B7E8;
+    width: 157.5px;
+}

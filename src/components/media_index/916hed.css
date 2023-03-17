@@ -1,0 +1,20 @@
+@media (max-width:916px) {
+
+    .header_logo img {
+        flex: 0 0 85px;
+    }
+    .header_logo{
+        column-gap: 8px;
+    }
+
+    .header_body {
+        position: absolute;
+    }
+    .header_nav{
+        width: 99%;
+    }
+
+    .header_nav ul {
+        column-gap: 1.9vh;
+    }
+}

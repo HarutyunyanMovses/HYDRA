@@ -1,0 +1,128 @@
+.section2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 716px;
+}
+
+.section2_content {
+    display: flex;
+    justify-content: center;
+    column-gap: 11px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.blok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+    border-radius: 40px;
+    min-height: 511px;
+    min-width: 275px;
+    margin-bottom: 11px;
+}
+
+.blok p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 250px;
+}
+
+.blok h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.blok hr {
+    min-width: 154px;
+    border: 1px solid rgba(192, 183, 232, 0.33);
+}
+
+.blok_img,
+.elipse {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.elipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230.36px;
+    height: 230.36px;
+    border-radius: 50%;
+    margin-top: 35px;
+
+}
+
+.blok_img {
+    width: 205.36px;
+    height: 205.36px;
+    border-radius: 50%;
+}
+
+._mb {
+    margin-bottom: 40px;
+}
+
+
+
+/* slider media  */
+
+._section2_slide {
+    display: none;
+}
+
+.l,
+.r {
+    border: 0;
+    background: rgba(14, 14, 14, 0.32);
+    position: static;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    rotate: 360deg;
+
+}
+.s {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:672px) {
+    .section2_content {
+        display: none;
+    }
+
+    ._section2_slide {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 69%;
+        background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+        border-radius: 40px;
+    }
+
+    .blok {
+        background: inherit;
+        border-radius: 0;
+    }
+
+  
+
+}

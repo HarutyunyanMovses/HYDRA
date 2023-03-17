@@ -1,0 +1,83 @@
+@media (max-width:1024px) {
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content {
+        padding-top: 60px;
+    }
+
+    .wrapper {
+        align-items: center;
+    }
+
+    .section_content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contacts_us_iner{
+        margin-top: 75px;
+    }
+
+    .contacts_us_iner h2 {
+        font-size: 16px;
+    }
+
+    .contacts_us_iner p {
+        font-size: 14px;
+    }
+
+    .send_mess, .location, .call {
+        column-gap: 5px;
+    }
+
+    .s4_blok {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .last {
+        justify-content: space-around;
+    }
+
+    .section4_content{
+        justify-content: space-around;
+    }
+    
+    ._logo{
+        width: 130px;
+        height: 130px;
+    }
+
+    .nav_links{
+        justify-content: center;
+    }
+
+    .nav_links a, .socialnetworks p {
+        font-size: 15px;
+        line-height: 12px;
+    }
+
+    .soc_icons {
+        column-gap: 13px;
+    }
+
+    ._gl {
+        margin-top: 53px;
+        margin-bottom: 39px;
+    }
+
+    .footer {
+        padding-top: 100px;
+    }
+
+    .header_img{
+        display: flex;
+        align-items: center;
+    }
+
+}
