@@ -22,11 +22,13 @@ export default function Header() {
             <div className="container">
                 {/* nav bar */}
                 <div className="header_body">
-                    <div className="header_logo">
+                    {/* <div className="header_logo" > */}
+                        <a href="#home" className="header_logo">
                         <img src={logo} alt="Logo" />
                         <img src={Hydra} alt="Hydra" />
+                        </a>
 
-                    </div>
+                    {/* </div> */}
                     <div className="header_burger" ref={burger} onClick={addClass} >
                         <span></span>
                     </div>

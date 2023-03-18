@@ -121,6 +121,7 @@
     .blok {
         background: inherit;
         border-radius: 0;
+        min-width: 200px;
     }
 
   

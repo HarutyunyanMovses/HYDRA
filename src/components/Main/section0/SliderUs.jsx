@@ -12,7 +12,7 @@ export default function SliderUs() {
     const [position, setPosition] = useState(0)
 
     return (
-        <div className="slide-container ">
+        <div className="slide-container " id="contacts">
             <button className="left_shape" onClick={() => {
                 setPosition(position ? position - 1 : 2)
             }}>

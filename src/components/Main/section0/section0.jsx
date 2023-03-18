@@ -12,7 +12,7 @@ export default function Section0(params) {
 
 
     return (
-        <section className="section0" style={{ backgroundImage: `url(${backHed})` }}>
+        <section className="section0" style={{ backgroundImage: `url(${backHed})` }} id="home" >
             <div className="container">
                 <div className="section0_body">
                     <div className="header_content">

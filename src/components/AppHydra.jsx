@@ -18,7 +18,7 @@ export default function AppHydra(params) {
     return (
         <div className="appHydra">
             <Header />
-            <div className="content">
+            <div className="">
                 <Section0 />
                 <Section1 />
                 <Section2 />
