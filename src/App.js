@@ -10,6 +10,7 @@ function App() {
     setTimeout(() => {
       setLoading(true)
     }, 3000);
+    return true
   })
 
   return (
