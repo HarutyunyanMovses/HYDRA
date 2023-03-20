@@ -7,7 +7,7 @@ export default function LoadingSpinner() {
         <div className="spinner-container">
             <div className="loading-spinner" style={{ backgroundImage: `url(${logo})` }}>
             </div>
-            <h1>Welcom  to <span>Hydra</span></h1>
+            <h1>Welcome  to <span>Hydra</span></h1>
             <div className="creator">
                 Created by Movses Harutyunyan
             </div>
